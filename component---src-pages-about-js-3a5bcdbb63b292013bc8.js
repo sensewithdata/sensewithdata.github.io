@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"3XHS":function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return c}));var r=t("q1tI"),a=t.n(r),u=t("LbRr");function c(){return a.a.createElement("div",{style:{color:"teal"}},a.a.createElement(u.a,null),a.a.createElement("h1",null,"wow"))}},LbRr:function(e,n,t){"use strict";t.d(n,"a",(function(){return u}));var r=t("q1tI"),a=t.n(r);function u(){return a.a.createElement("h1",null,"This is a header.")}}}]);
+//# sourceMappingURL=component---src-pages-about-js-3a5bcdbb63b292013bc8.js.map
