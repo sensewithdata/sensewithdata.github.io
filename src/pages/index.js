@@ -1,14 +1,29 @@
 import React from "react"
-import { Link } from "gatsby"
-import Header from "../components/header"
+import { graphql } from "gatsby"
 
-export default function Home() {
+import { Link } from "gatsby"
+
+import Container from "../components/container"
+
+export default function Home({ data }) {
   return (
-  <div>
-    <Header />
-    <h1>Hello ddd world! :)</h1>
-    <p>beep</p>
-    <Link to="/about/">About</Link>
-  </div>
+  <Container>
+    {data.allMarkdownRemark.edges.map(({ node }) => (
+      <div dangerouslySetInnerHTML={{__html: node.html }} />
+    ))}
+  </Container>
   )
 }
+
+export const query = graphql`
+  query {
+    allMarkdownRemark {
+      totalCount
+      edges {
+        node {
+          html
+        }
+      }
+    }
+  }
+`
