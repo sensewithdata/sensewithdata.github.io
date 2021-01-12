@@ -11,9 +11,7 @@ const OuterDiv = styled.div`
   margin: 0 auto;
   max-width: 800px;
   min-width: 400px;
-
-  background-color: rgba(255,255,255,0.9);
-
+  background-color: rgba(255,255,255,0.97);
 `;
 
 const StyledLink = styled(Link)`
