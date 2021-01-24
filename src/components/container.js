@@ -9,8 +9,8 @@ import { rhythm } from "../utils/typography"
 
 const OuterDiv = styled.div`
   margin: 0 auto;
-  max-width: 800px;
-  min-width: 400px;
+  max-width: 1000px;
+  min-width: 200px;
   background-color: rgba(255,255,255,0.97);
 `;
 
@@ -26,14 +26,22 @@ const HeaderLink = styled.p`
 `
 
 const StyledHeader = styled.header`
+  margin: 0 auto;
   background-color: rgba(255,255,255,0.95);
+  max-width: 1000px;
+  min-width: 200px;
   padding-left: 1rem;
   padding-right: 1rem;
 `
 
+const HeaderBackground = styled.div`
+  background-color: rgba(255,255,255,1);
+`
+
 const InnerDiv = styled.div`
   padding: ${rhythm(2)};
-  padding-top: ${rhythm(1.5)}
+  padding-top: ${rhythm(1.5)};
+  font-size: 19px;
 `
 
 const ListLink = props => (
@@ -44,15 +52,20 @@ const ListLink = props => (
 
 export default function Container({ children }) {
 
-    return <OuterDiv>
-        <StyledHeader>
-        <Link to="/"><HeaderLink><h3>sensewithdata</h3></HeaderLink></Link>
-        <ListLink to="/about/"><HeaderLink style={{ float: `right`}}><h4>whatnot</h4></HeaderLink></ListLink>
+    return <html>
+    <HeaderBackground>
+    <StyledHeader>
+        <Link to="/"><HeaderLink><h3><i>sensewith</i> DATA</h3></HeaderLink></Link>
         <ListLink to="/about/"><HeaderLink style={{ float: `right`}}><h4>about</h4></HeaderLink></ListLink>
+        <ListLink to="/resources/"><HeaderLink style={{ float: `right`}}><h4>resources</h4></HeaderLink></ListLink>
+        <ListLink to="/"><HeaderLink style={{ float: `right`}}><h4>home</h4></HeaderLink></ListLink>
         </StyledHeader>
+    </HeaderBackground>
+    <OuterDiv>
         <InnerDiv>
           {children}
           </InnerDiv>
 
     </OuterDiv>
+    </html>
 }
