@@ -9,7 +9,7 @@ import { rhythm } from "../utils/typography"
 
 const OuterDiv = styled.div`
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 600px;
   min-width: 200px;
   background-color: rgba(255,255,255,0.97);
 `;
