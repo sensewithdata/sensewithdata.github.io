@@ -52,7 +52,7 @@ const ListLink = props => (
 
 export default function Container({ children }) {
 
-    return <html>
+    return <div>
     <HeaderBackground>
     <StyledHeader>
         <Link to="/"><HeaderLink><h3><i>sensewith</i> DATA</h3></HeaderLink></Link>
@@ -67,5 +67,5 @@ export default function Container({ children }) {
           </InnerDiv>
 
     </OuterDiv>
-    </html>
+</div>
 }
