@@ -3,6 +3,7 @@ title: The Library of Missing Datasets
 url: https://mimionuoha.com/the-library-of-missing-datasets
 description: Mixed-media installation by Mimi Ọnụọha (2016)
 site_category: resource
+resource_category: whatisdata
 key: what-is-data,exhibition
 ---
 

@@ -3,6 +3,7 @@ title: SENSEMAKING. Framing and Acting in the Unknown
 url: https://www.sagepub.com/sites/default/files/upm-binaries/42924_1.pdf
 description:  Deborah Ancona, MIT-Sloan School of Management 
 site_category: resource
+resource_category: sensemakingandsystemschange
 key: sensemaking-and-systems-change,paper
 ---
 

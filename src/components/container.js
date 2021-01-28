@@ -58,7 +58,7 @@ export default function Container({ children }) {
         <Link to="/"><HeaderLink><h3><i>sensewith</i> DATA</h3></HeaderLink></Link>
         <ListLink to="/about/"><HeaderLink style={{ float: `right`}}><h4>about</h4></HeaderLink></ListLink>
         <ListLink to="/resources/"><HeaderLink style={{ float: `right`}}><h4>resources</h4></HeaderLink></ListLink>
-        <ListLink to="/"><HeaderLink style={{ float: `right`}}><h4>home</h4></HeaderLink></ListLink>
+        <ListLink to="/questions/"><HeaderLink style={{ float: `right`}}><h4>questions</h4></HeaderLink></ListLink>
         </StyledHeader>
     </HeaderBackground>
     <OuterDiv>

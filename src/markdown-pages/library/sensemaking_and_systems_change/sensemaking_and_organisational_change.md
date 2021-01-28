@@ -3,6 +3,7 @@ title: "Understanding sensemaking in organisational change: a cognitive mapping 
 url: https://etheses.bham.ac.uk/id/eprint/7164/9/O%27Connor17PhD.pdf
 description: Maureen O'Connor PhD thesis, University of Birmingham (2015)
 site_category: resource
+resource_category: sensemakingandsystemschange
 key: sensemaking-and-systems-change,paper
 ---
 

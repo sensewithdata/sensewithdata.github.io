@@ -3,6 +3,7 @@ title: Critical investigation into the politics of the interface.
 url: https://we-make-money-not-art.com/critical-investigation-into-the-politics-of-interfaces-an-interview-with-joana-moll/
 description:  An interview with Joana Moll from by Régine Debatty of we-make-money-not-art.com (2017)
 site_category: resource
+resource_category: whatisdata
 key: what-is-data,interview
 ---
 

@@ -3,6 +3,7 @@ title: Warm Data
 url: https://warmdatalab.net/warm-data
 description: The International Bateson Institute and the Warm Data Lab
 site_category: resource
+resource_category: whatisdata
 key: what-is-data,website
 ---
 

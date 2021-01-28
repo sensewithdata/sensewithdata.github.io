@@ -3,6 +3,7 @@ title: "The new dynamics of strategy: Sense-making in a complex and complicated 
 url: https://www.researchgate.net/publication/224101753_The_new_dynamics_of_strategy_Sense-making_in_a_complex_and_complicated_world
 description: C. F. Kurtz and D. J. Snowden (2003)
 site_category: resource
+resource_category: sensemakingandsystemschange
 key: sensemaking-and-systems-change
 ---
 

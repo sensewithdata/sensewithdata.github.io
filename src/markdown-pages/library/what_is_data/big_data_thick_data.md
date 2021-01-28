@@ -3,6 +3,7 @@ title: Why Big Data Needs Thick Data
 url: https://medium.com/ethnography-matters/why-big-data-needs-thick-data-b4b3e75e3d7
 description: Tricia Wang, Ethnography Matters (2016)
 site_category: resource
+resource_category: whatisdata
 key: what-is-data,article
 ---
 

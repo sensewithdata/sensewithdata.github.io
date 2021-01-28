@@ -3,6 +3,7 @@ title: Collaborative Sensemaking and Wayfinding
 url: https://vimeo.com/407861695
 description: talk by Matt Arnold, IA Conference 2020
 site_category: resource
+resource_category: sensemakingandsystemschange
 key: what-is-data,video
 ---
 

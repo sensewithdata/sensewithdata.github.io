@@ -3,6 +3,7 @@ title: Understanding Visual SenseMaking
 url: https://www.humantific.com/post/understanding-visual-sensemaking
 description: Humantific (2019)
 site_category: resource
+resource_category: sensemakingandsystemschange
 key: sensemaking-and-systems-change
 ---
 
