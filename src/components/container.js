@@ -7,12 +7,6 @@ import { Link } from "gatsby"
 import { rhythm } from "../utils/typography"
 
 
-const OuterDiv = styled.div`
-  margin: 0 auto;
-  max-width: 800px;
-  min-width: 400px;
-  background-color: rgba(255,255,255,0.97);
-`;
 
 const StyledLink = styled(Link)`
   color: palevioletred;
@@ -38,6 +32,13 @@ const HeaderBackground = styled.div`
   background-color: rgba(255,255,255,1);
 `
 
+const OuterDiv = styled.div`
+  margin: 2rem auto;
+  max-width: 800px;
+  min-width: 400px;
+  background-color: rgba(255,255,255,0.97);
+`;
+
 const InnerDiv = styled.div`
   padding: ${rhythm(2)};
   padding-top: ${rhythm(1.5)};
@@ -57,6 +58,7 @@ export default function Container({ children }) {
     <StyledHeader>
         <Link to="/"><HeaderLink><h3><i>sensewith</i> DATA</h3></HeaderLink></Link>
         <ListLink to="/about/"><HeaderLink style={{ float: `right`}}><h4>about</h4></HeaderLink></ListLink>
+        <ListLink to="/casestudies/"><HeaderLink style={{ float: `right`}}><h4>case-studies</h4></HeaderLink></ListLink>
         <ListLink to="/resources/"><HeaderLink style={{ float: `right`}}><h4>resources</h4></HeaderLink></ListLink>
         <ListLink to="/questions/"><HeaderLink style={{ float: `right`}}><h4>questions</h4></HeaderLink></ListLink>
         </StyledHeader>
