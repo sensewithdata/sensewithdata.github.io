@@ -4,6 +4,8 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 
+require("dotenv").config()
+
 module.exports = {
   /* Your site config here */
   plugins: [
@@ -21,6 +23,13 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: process.env.CONTENTFULSPACEID,
+        accessToken: process.env.CONTENTFULACCESSTOKEN,
+      }
     },
   ],
 }
