@@ -1,5 +1,5 @@
 ---
-title: Situated learning: Legitimate peripheral participation
+title: Situated learning - Legitimate peripheral participation
 url: https://books.google.co.uk/books?id=ZVogAwAAQBAJ&dq=Situated+learning:+Legitimate+peripheral+participation&lr=
 description: Jean Lave and Etienne Wenger, 1991
 site_category: resource
