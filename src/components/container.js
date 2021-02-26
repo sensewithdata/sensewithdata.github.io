@@ -34,7 +34,7 @@ const HeaderBackground = styled.div`
 
 const ListLink = props => (
     <li style={{ display: `inline-block`, marginRight: `1rem`, float: `right` }}>
-      <StyledLink to={props.to}>{props.children}</StyledLink>
+      <StyledLink key={props.to} to={props.to}>{props.children}</StyledLink>
     </li>
   )
 
