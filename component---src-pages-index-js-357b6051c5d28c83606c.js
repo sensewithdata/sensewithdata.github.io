@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{RXBc:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return i}));var s=n("q1tI"),o=n.n(s),a=(n("Wbzz"),n("+e4l"));function i(e){e.data;return o.a.createElement(a.a,null,"Sense with DATA brings together a collective of sensemakers, seeking to start a discussion about ... On this site we've put together a set of questions, which .... and a collection of resources, to ...")}}}]);
-//# sourceMappingURL=component---src-pages-index-js-357b6051c5d28c83606c.js.map

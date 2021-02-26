@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{PGyb:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return c}));var i=t("q1tI"),r=t.n(i),a=t("+e4l");function c(){return r.a.createElement(a.a,null,r.a.createElement("div",null,"What might be here? A space for writing about more specific topics"))}}}]);
-//# sourceMappingURL=component---src-pages-casestudies-js-296ca04a0e7874f60dd7.js.map
