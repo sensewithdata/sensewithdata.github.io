@@ -35,10 +35,6 @@ export default class ResourcesPage extends React.Component {
               ? <p>howdy</p>
               : null
           }
-          <p>
-            As part of our data fellowship we read around and collated a library of interesting links...
-          </p>
-
           
           <form>
             <label>Search: 
@@ -62,9 +58,8 @@ export default class ResourcesPage extends React.Component {
                 node.frontmatter.description.toLowerCase().includes(search.toLowerCase())) &&
                 node.frontmatter.resource_category == "whatisdata") ? (
                 <div>
-                  <p><a href={ node.frontmatter.url }>{ node.frontmatter.title }</a> - { node.frontmatter.description }</p>
+                  <p><a href={ node.frontmatter.url }>{ node.frontmatter.title }</a> - <b>{ node.frontmatter.description }</b></p>
                   <div dangerouslySetInnerHTML={{ __html: node.html }} />
-                  <br />
                 </div>
                 ) : (
                   null
@@ -84,9 +79,8 @@ export default class ResourcesPage extends React.Component {
                 node.frontmatter.description.toLowerCase().includes(search.toLowerCase())) &&
                 node.frontmatter.resource_category == "sensemakingandsystemschange") ? (
                 <div>
-                  <p><a href={ node.frontmatter.url }>{ node.frontmatter.title }</a> - { node.frontmatter.description }</p>
+                  <p><a href={ node.frontmatter.url }>{ node.frontmatter.title }</a> - <b>{ node.frontmatter.description }</b></p>
                   <div dangerouslySetInnerHTML={{ __html: node.html }} />
-                  <br />
                 </div>
                 ) : (
                   null
@@ -94,6 +88,28 @@ export default class ResourcesPage extends React.Component {
               }
             </div>
           ))}
+
+          <hr />
+          <h3>Collective Sensemaking and Community Mapping</h3>
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <div>
+              {
+              (
+                (node.frontmatter.title.toLowerCase().includes(search.toLowerCase()) ||
+                node.html.toLowerCase().includes(search.toLowerCase()) ||
+                node.frontmatter.description.toLowerCase().includes(search.toLowerCase())) &&
+                node.frontmatter.resource_category == "collectiveandcommunity") ? (
+                <div>
+                  <p><a href={ node.frontmatter.url }>{ node.frontmatter.title }</a> - <b>{ node.frontmatter.description }</b></p>
+                  <div dangerouslySetInnerHTML={{ __html: node.html }} />
+                </div>
+                ) : (
+                  null
+                )
+              }
+            </div>
+          ))}
+
         </div>
         )}
         />

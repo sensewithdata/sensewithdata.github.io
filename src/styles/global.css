@@ -1,6 +1,12 @@
 html {
-    background: url('./mobile_test.svg');
+    /* background image is currently funky. 
+    would ideally be a fixed size and a really large svg?
+    but at the moment the natural size is too narrow so auto scales to fit.
+    also gradient fade to white is quite clunky...
+    */   
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 5000px, rgba(255, 255, 255, 1) 5500px), url('./background-cropped-optimized.svg');
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 100%;
+    min-height: 100%;
+    background-size: 100%;    
   }
