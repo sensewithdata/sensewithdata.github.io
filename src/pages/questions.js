@@ -28,10 +28,7 @@ query {
   allMarkdownRemark(filter: {frontmatter: {filter: {eq: "question"}}}) {
     edges {
       node {
-        html,
-        frontmatter {
-          index
-        }
+        html
       }
     }
   }

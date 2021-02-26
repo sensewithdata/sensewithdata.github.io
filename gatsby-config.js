@@ -23,13 +23,6 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-    },
-    {
-      resolve: `gatsby-source-contentful`,
-      options: {
-        spaceId: process.env.CONTENTFULSPACEID,
-        accessToken: process.env.CONTENTFULACCESSTOKEN,
-      }
-    },
+    }
   ],
 }
