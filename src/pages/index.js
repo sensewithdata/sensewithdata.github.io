@@ -6,7 +6,7 @@ import ContentBlock from "../components/contentblock"
 
 const LogoStyle = styled.h1`
   text-align: center;
-  font-size: 400%;
+  font-size: 300%;
 `
 
 
