@@ -110,6 +110,26 @@ export default class ResourcesPage extends React.Component {
             </div>
           ))}
 
+          <hr />
+          <h3>Building networks and collaboration</h3>
+          {data.allMarkdownRemark.edges.map(({ node }) => (
+            <div>
+              {
+              (
+                (node.frontmatter.title.toLowerCase().includes(search.toLowerCase()) ||
+                node.html.toLowerCase().includes(search.toLowerCase()) ||
+                node.frontmatter.description.toLowerCase().includes(search.toLowerCase())) &&
+                node.frontmatter.resource_category == "networkandcommunity") ? (
+                <div>
+                  <p><a href={ node.frontmatter.url }>{ node.frontmatter.title }</a> - <b>{ node.frontmatter.description }</b></p>
+                  <div dangerouslySetInnerHTML={{ __html: node.html }} />
+                </div>
+                ) : (
+                  null
+                )
+              }
+            </div>
+          ))}
         </div>
         )}
         />
